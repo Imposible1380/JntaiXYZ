@@ -1,0 +1,79 @@
+.team-jxyz {
+    position: relative;
+    min-height: 1px;
+    padding: 5px;
+    float: left;
+}
+.team-wrapper {
+  float: left;
+  width: 100%;
+}
+.single-team .image {
+  position: relative;
+}
+.single-team .image:before {
+  bottom: 0;
+  content: "";
+  left: 0;
+  opacity: 0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.single-team:hover .image:before {
+  opacity: 0.9;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  top: 0;
+}
+.single-team .image img {
+  width: 100%;
+}
+.single-team .content {
+  bottom: -30px;
+  left: 15px;
+  opacity: 0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  padding: 20px;
+  position: absolute;
+  right: 15px;
+  -webkit-transition:all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.single-team:hover .content {
+  bottom: 0;
+  opacity: 1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.single-team .content h4 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.single-team .content p {
+  color: #fff;
+  line-height: 18px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.single-team .image::before, .overlay::before, .solid::before, .single-pricing.active {
+   background: linear-gradient(transparent, #000000BB);
+   transition: 0.2s;
+}
+
+@media only screen and (max-width: 1500px) {
+  .team-jxyz {
+      width: 33.333333%;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .team-jxyz {
+      width: 50%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .team-jxyz {
+      width: 100%;
+  }
+}
