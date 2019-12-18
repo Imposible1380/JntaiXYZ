@@ -1,0 +1,103 @@
+<!-- WIDGET -->
+<style>
+/* Recomendado */
+.recomendado {
+width: 100%;
+}
+.img-recomendado {
+position: relative;
+padding: 0;
+}
+.single-img-recomendado .image-rec {
+position: relative;
+height: 500px;
+}
+.single-img-recomendado .image-rec:before {
+content: "";
+bottom: 0;
+left: 0;
+opacity: 0;
+position: absolute;
+right: 0;
+top: 0;
+}
+.single-img-recomendado:hover .image-rec:before {
+opacity: .9;
+top: 0;
+}
+.single-img-recomendado .content {
+bottom: -20px;
+opacity: 0;
+padding: 25px;
+position: absolute;
+transition: all .5s cubic-bezier(0.68, -0.55, 0.27, 1.55) .2s;
+}
+.single-img-recomendado:hover .content {
+bottom: 0;
+opacity: 1;
+}
+.single-img-recomendado .content h3 {
+font-size: 18px;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
+.single-img-recomendado .image-rec::before {
+background: linear-gradient(0deg, #000, transparent);
+transition: 1.3s;
+}
+.nombre-recomendado {
+font-family: 'Leckerli One', cursive;
+color: #fff;
+text-align: center;
+font-size: 25px;
+margin: 0 30px;
+text-shadow: 0 3px 6px rgba(0.0.0.5);
+position: relative;
+}
+.recomendado-desc {
+padding: 1rem;
+color: #fff;
+border-radius: 10px;
+background-color: #19bb19;
+letter-spacing: 2px;
+box-shadow: 0px 0px 9px 0px #19bb19, inset 0px -2px 0px 0px #0b4a0b;
+}
+.recomendado-sinopsis {
+position: absolute;
+padding: .5rem;
+top: -20px;
+background: #bb1919;
+border-radius: 10px;
+box-shadow: 0px 0px 9px 0px #bb1919, inset 0px -2px 0px 0px #790e0e;
+}
+.firstag__content2{
+display: inline-block;
+}
+.firstag__name2 {
+    padding: 4px 8.3%!important;
+}
+
+.image-rec {
+background: url(https://2.bp.blogspot.com/-EOIC2eh6Oys/XOw7R-P_SVI/AAAAAAAABoE/nLSgiRa1dvsRxOzdK6k4FYEKuzze8lNWwCLcBGAs/s1600/PORTADASNANDEKOKONISENSEIGA.webp) no-repeat;
+}
+</style>
+<center>
+<div class="recomendado">
+<div class="single-img-recomendado img-recomendado">
+<div class="image-rec">
+<div class="nombre-recomendado">NANDE KOKO NI SENSEI GA?!</div>
+</div>
+<div class="content">
+<div class="recomendado-sinopsis">SINOPSIS:</div>
+<h3>Ichirou Satou, de 17 años, es un adolescente promedio que siempre se encuentra en situaciones pervertidas con su maestra, Kana Kojima. Sigue esta comedia erótica de amor sobre sus contratiempos a lo largo de su vida diaria y cómo Ichirou y Kana eligen manejarlos.
+</h3>
+<div class="firstag__content2">
+<a class="firstag__name firstag__name2 firstag__name--Finalizado" href="https://www.jntai.xyz/search/label/Finalizado">Finalizado</a>
+<a class="firstag__name firstag__name2 firstag__name--Sin Censura" href="https://www.jntai.xyz/search/label/Sin%20Censura">Sin Censura</a>
+<a class="firstag__name firstag__name2 firstag__name--SoftHentai" href="https://www.jntai.xyz/search/label/SoftHentai">SoftHentai</a>
+</div>
+<a target="_blank" href="https://www.jntai.xyz/2019/05/nande-koko-ni-sensei-ga.html"><div class="recomendado-desc"><i class="fas fa-eye"></i>VER ONLINE</div></a>
+</div>
+</div>
+</div>
+</center>
